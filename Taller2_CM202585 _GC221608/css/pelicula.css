@@ -1,0 +1,31 @@
+#peliculas{
+    
+    background-color: #846ee7;
+    color: white;
+    
+}
+
+.display-4{
+    color: gold; 
+    margin: 0 auto;
+}
+
+body{
+    background-color: #000000;
+}
+
+.float-right{
+    float: right;
+    padding: 5px;
+    background-color: #5949a1;
+}
+
+ img{
+    width: 22%;
+    height: 22%;
+    
+} 
+
+#peliculas li{
+    list-style: none;
+}
