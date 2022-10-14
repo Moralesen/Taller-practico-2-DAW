@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/pollos.js"></script>
+    <title>Restaurante los pollos</title>
+</head>
+<body>
+    <br>
+    <div class="container" style="width:100%;">
+        <div class="row" style="background-color:#588688e5;color: white;">
+            <h1 class="display-4" style="margin-left: 30%;"><b>lleve su orden de pollo</b></h1>
+        </div>
+        <div class="row" style="background-color: #064649e5; color: white;">
+                <p>Combos y productos:</p>
+                <br>
+                <p>Combos:</p>
+                <div class="radio">
+                    <label class="radio-inline"><input type="radio" name="r1" id="r1" checked>Super Combo</label>
+                    <label class="radio-inline"><input type="radio" name="r1" id="r2">Combo Personal</label>
+                    <label class="radio-inline"><input type="radio" name="r1" id="r3">Combo Infantil</label>
+                </div>
+                <div class="row">
+                <div id="productos" style="background-color: #064649e5;color: white;">
+                    <br>
+                    <p>Productos:</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="c1" name="c1" checked>
+                        <label class="form-check-label" >Ensalada</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="c2" name="c2">
+                        <label class="form-check-label">Papas fritas</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="c3" name="c3">
+                        <label class="form-check-label">Pieza de pollo grande</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="c4" name="c4">
+                        <label class="form-check-label">Pieza de pollo Mediana</label>
+                        
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="c5" name="c5">
+                            <label class="form-check-label" >Pieza de pollo pequeñó</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="c6" name="c6">
+                            <label class="form-check-label">Bebida Grande</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="c7" name="c7">
+                            <label class="form-check-label">Bebida Mediana</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="c8" name="c8">
+                            <label class="form-check-label">Bebida pequeña</label>
+                        </div>
+                        <br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="c9" name="c9">
+                            <label class="form-check-label">Café</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="c10" name="c10">
+                            <label class="form-check-label">Postre</label>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+                <br>
+                              
+                     <label for="TxaSugerencia">Comentarios</label>
+                     <div id='form_wrap' class="d-flex justify-content-center">
+                        <form id="contact-form" class="bg-light p-3 border border rounded w-50"
+                        action="javascript:alert('¡Comentario enviado!');">
+                        <p id="formstatus"></p>
+                       <p style="color: black;">
+                        Instrucciones: CTRL+E para Editar y CTRL+S para Guardar,
+                        ESC para Cancelar.
+                        </p>                       
+                     <div id="view" style="color: black;"> </div>
+                     <textarea style="color: black;" class="form-control" placeholder="Dejanos tus sugerencias" id="area"></textarea>
+                     <br><br><br>
+                     
+        </div>
+        
+        <div class="row" id="factura" style="background-color:#588688e5;color: white;">
+            <label class="form-label" for="total">Total de la cuenta</label>
+            <input type="text" class="form-control" id="total">
+        </div>
+            </form>
+            <input type="button" class="btn btn-secondary" value="Agregar" id="btnAgregar">
+        </div>
+       <br><br><br>
+    </div>
+</body>
+</html>
